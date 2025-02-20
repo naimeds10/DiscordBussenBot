@@ -50,7 +50,7 @@ jobs:
           env: production
 
       - name: Deploy
-        uses: appleboy/ssh-action@v0.1.4
+        uses: appleboy/ssh-action@v1.2.1
         with:
           host: ${{ secrets.SSH_HOST }}
           username: github-actions
